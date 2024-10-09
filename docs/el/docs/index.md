@@ -12,7 +12,7 @@
   <a href="https://fastapi.tiangolo.com"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI"></a>
 </p>
 <p align="center">
-    <em>FastAPI πλαίσιο εργασίας, υψηλή απόδοση, εύκολο στη μάθηση, γρήγορο στον κώδικα, έτοιμο για παραγωγή</em>
+    <em>FastAPI framework, υψηλή απόδοση, εύκολο στη μάθηση, γρήγορο στην ανάπτυξη κώδικα, έτοιμο για παραγωγή</em>
 </p>
 <p align="center">
 <a href="https://github.com/fastapi/fastapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster" target="_blank">
@@ -37,7 +37,7 @@
 
 ---
 
-Το FastAPI είναι ένα μοντέρνο, γρήγορο (υωηλής απόδοσης), πλαίσιο εργασίας ιστού για τη δημιουργία APIs με τη γλώσσα προγραμματισμού Python, βασισμένο σε βασικές υποδείξεις τύπων.
+Το FastAPI είναι ένα μοντέρνο, γρήγορο (υωηλής απόδοσης), web framework για τη δημιουργία APIs με τη γλώσσα προγραμματισμού Python, βασισμένο σε βασικές υποδείξεις τύπων.
 
 Τα βασικά χαρακτηριστικά είναι:
 
@@ -77,39 +77,39 @@
 
 ---
 
-"_We adopted the **FastAPI** library to spawn a **REST** server that can be queried to obtain **predictions**. [for Ludwig]_"
+"_Υιοθετήσαμε την **FastAPI** βιοβλιοθήκη για να φτιάξουμε ένα **REST** server που να μπορεί να γίνει queried για να πάρουμε **προβλέψεις**. [για το Ludwig]_"
 
 <div style="text-align: right; margin-right: 10%;">Piero Molino, Yaroslav Dudin, and Sai Sumanth Miryala - <strong>Uber</strong> <a href="https://eng.uber.com/ludwig-v0-2/" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_**Netflix** is pleased to announce the open-source release of our **crisis management** orchestration framework: **Dispatch**! [built with **FastAPI**]_"
+"_Το **Netflix** είναι στην ευχάρηστη θέση να ανακοινώσει την κυκλοφορια του (ανοιχτού κώδικα) **crisis management** orchestration framework: **Dispatch**! [φτιαγμένο με το **FastAPI**]_"
 
 <div style="text-align: right; margin-right: 10%;">Kevin Glisson, Marc Vilanova, Forest Monsen - <strong>Netflix</strong> <a href="https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_I’m over the moon excited about **FastAPI**. It’s so fun!_"
+"_Είμαι πολύ ενθουσιασμένος με το  **FastAPI**. Είναι τόσο διασκεδαστικό_"
 
 <div style="text-align: right; margin-right: 10%;">Brian Okken - <strong><a href="https://pythonbytes.fm/episodes/show/123/time-to-right-the-py-wrongs?time_in_sec=855" target="_blank">Python Bytes</a> podcast host</strong> <a href="https://twitter.com/brianokken/status/1112220079972728832" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_Honestly, what you've built looks super solid and polished. In many ways, it's what I wanted **Hug** to be - it's really inspiring to see someone build that._"
+"_Ειλικρινά, αυτό που έχεις φτιάξει φαίνεται σταθερό και καλοδουλεμένο, είναι ότι θα ήθελα να είναι το **Hug** - είναι πολύ ενθαρρυντικό να βλεπεις κάποιον να φτιάχνει κάτι τέτοιο._"
 
-<div style="text-align: right; margin-right: 10%;">Timothy Crosley - <strong><a href="https://www.hug.rest/" target="_blank">Hug</a> creator</strong> <a href="https://news.ycombinator.com/item?id=19455465" target="_blank"><small>(ref)</small></a></div>
-
----
-
-"_If you're looking to learn one **modern framework** for building REST APIs, check out **FastAPI** [...] It's fast, easy to use and easy to learn [...]_"
-
-"_We've switched over to **FastAPI** for our **APIs** [...] I think you'll like it [...]_"
-
-<div style="text-align: right; margin-right: 10%;">Ines Montani - Matthew Honnibal - <strong><a href="https://explosion.ai" target="_blank">Explosion AI</a> founders - <a href="https://spacy.io" target="_blank">spaCy</a> creators</strong> <a href="https://twitter.com/_inesmontani/status/1144173225322143744" target="_blank"><small>(ref)</small></a> - <a href="https://twitter.com/honnibal/status/1144031421859655680" target="_blank"><small>(ref)</small></a></div>
+<div style="text-align: right; margin-right: 10%;">Timothy Crosley - <strong>Δημιουργός του <a href="https://www.hug.rest/" target="_blank">Hug</a></strong> <a href="https://news.ycombinator.com/item?id=19455465" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_If anyone is looking to build a production Python API, I would highly recommend **FastAPI**. It is **beautifully designed**, **simple to use** and **highly scalable**, it has become a **key component** in our API first development strategy and is driving many automations and services such as our Virtual TAC Engineer._"
+"_Αν ψάχνεις για να μάθεις κάποιο **μοντέρνο framework** για τη δημιουργία Rest APIs, δες το **FastAPI** [...] Είναι γρήγορο και εύκολο να το μάθεις και να το χρησιμοποιείς[...]_"
+
+"_Γυρίσαμε στο **FastAPI** για τα **APIs**μας [...] Πιστεύω ότι θα σου αρέσει [...]_"
+
+<div style="text-align: right; margin-right: 10%;">Ines Montani - Matthew Honnibal - <strong>ιδρυτές του <a href="https://explosion.ai" target="_blank">Explosion AI</a> - δημιουργοί του <a href="https://spacy.io" target="_blank">spaCy</a></strong> <a href="https://twitter.com/_inesmontani/status/1144173225322143744" target="_blank"><small>(ref)</small></a> - <a href="https://twitter.com/honnibal/status/1144031421859655680" target="_blank"><small>(ref)</small></a></div>
+
+---
+
+"_Αν κάποιος θέλει να φτιάξει ένα Python API έτοιμο για παραγωγή, θα πρότεινα το **FastAPI**. Είναι όμορφα σχεδιασμένο, εύκολο στη χρήση και πολύ κλιμακωτό, If anyone is looking to build a production Python API, I would highly recommend **FastAPI**. It is **beautifully designed**, **simple to use** and **highly scalable**, it has become a **key component** in our API first development strategy and is driving many automations and services such as our Virtual TAC Engineer._"
 
 <div style="text-align: right; margin-right: 10%;">Deon Pillsbury - <strong>Cisco</strong> <a href="https://www.linkedin.com/posts/deonpillsbury_cisco-cx-python-activity-6963242628536487936-trAp/" target="_blank"><small>(ref)</small></a></div>
 
