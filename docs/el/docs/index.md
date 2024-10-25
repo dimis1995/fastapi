@@ -37,7 +37,7 @@
 
 ---
 
-Το FastAPI είναι ένα μοντέρνο, γρήγορο (υωηλής απόδοσης), web framework για τη δημιουργία APIs με τη γλώσσα προγραμματισμού Python, βασισμένο σε βασικές υποδείξεις τύπων.
+Το FastAPI είναι ένα μοντέρνο, γρήγορο (υψηλής απόδοσης), πλαίσιο εργασίας ιστού για τη δημιουργία APIs με τη γλώσσα προγραμματισμού Python, βασισμένο σε βασικές υποδείξεις τύπων.
 
 Τα βασικά χαρακτηριστικά είναι:
 
@@ -115,24 +115,24 @@
 
 ---
 
-## **Typer**, the FastAPI of CLIs
+## **Typer**, το FastAPI των CLIs
 
 <a href="https://typer.tiangolo.com" target="_blank"><img src="https://typer.tiangolo.com/img/logo-margin/logo-margin-vector.svg" style="width: 20%;"></a>
 
-If you are building a <abbr title="Command Line Interface">CLI</abbr> app to be used in the terminal instead of a web API, check out <a href="https://typer.tiangolo.com/" class="external-link" target="_blank">**Typer**</a>.
+Αν φτιάχνεις μια <abbr title="Command Line Interface">CLI</abbr> εφαρμογή για να χρησιμοποείς το terminal αντί για το web API, ρίξε μια ματία στο <a href="https://typer.tiangolo.com/" class="external-link" target="_blank">**Typer**</a>.
 
-**Typer** is FastAPI's little sibling. And it's intended to be the **FastAPI of CLIs**. ⌨️ 🚀
+Το **Typer** είναι το μικρό αδερφάκι του FastAPI. Σκοπός του είναι να γίνει το **FastAPI των CLIs**. ⌨️ 🚀
 
-## Requirements
+## Απαιτήσεις
 
-FastAPI stands on the shoulders of giants:
+Το FastAPI στέκται στους ώμους γιγάντων:
 
-* <a href="https://www.starlette.io/" class="external-link" target="_blank">Starlette</a> for the web parts.
-* <a href="https://docs.pydantic.dev/" class="external-link" target="_blank">Pydantic</a> for the data parts.
+* <a href="https://www.starlette.io/" class="external-link" target="_blank">Starlette</a> για τα διαδικτυακά μέρη.
+* <a href="https://docs.pydantic.dev/" class="external-link" target="_blank">Pydantic</a> για τα μέρη δεδομένων.
 
-## Installation
+## Εγκατάσταση
 
-Create and activate a <a href="https://fastapi.tiangolo.com/virtual-environments/" class="external-link" target="_blank">virtual environment</a> and then install FastAPI:
+Δημιουργήστε και ενεργοποιήστε ένα<a href="https://fastapi.tiangolo.com/virtual-environments/" class="external-link" target="_blank">ψηφιακό περιβάλλον</a> και μετά εγκαταστείστε το FastAPI:
 
 <div class="termy">
 
@@ -144,13 +144,13 @@ $ pip install "fastapi[standard]"
 
 </div>
 
-**Note**: Make sure you put `"fastapi[standard]"` in quotes to ensure it works in all terminals.
+**Σημείωση**: Επιβεβαιώστε ότι το `"fastapi[standard]"` είναι σε εισαγωγικά έστι ώστε να λειτουργεί σε όλα τα terminals.
 
-## Example
+## Παράδειγμα
 
-### Create it
+### Δημιουργία
 
-* Create a file `main.py` with:
+* Δημιουργείστε ένα αρχείο `main.py` με:
 
 ```Python
 from typing import Union
@@ -171,9 +171,9 @@ def read_item(item_id: int, q: Union[str, None] = None):
 ```
 
 <details markdown="1">
-<summary>Or use <code>async def</code>...</summary>
+<summary>Ή χρησιμοποιείστε <code>async def</code>...</summary>
 
-If your code uses `async` / `await`, use `async def`:
+Αν χρησιμιποιείτε `async` / `await`, τότε χρησιμοποιείστε `async def`:
 
 ```Python hl_lines="9  14"
 from typing import Union
@@ -193,15 +193,15 @@ async def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 ```
 
-**Note**:
+**Σημείωση**:
 
-If you don't know, check the _"In a hurry?"_ section about <a href="https://fastapi.tiangolo.com/async/#in-a-hurry" target="_blank">`async` and `await` in the docs</a>.
+Αν δεν είστε σίγουροι, ελένξτε την παράγραφο _"Βιάζεστε;"_ για τα <a href="https://fastapi.tiangolo.com/async/#in-a-hurry" target="_blank">`async` και `await` στην τεκμηρίωση</a>.
 
 </details>
 
 ### Run it
 
-Run the server with:
+Τρέξτε τον σέρβερ με:
 
 <div class="termy">
 
@@ -231,9 +231,9 @@ INFO:     Application startup complete.
 </div>
 
 <details markdown="1">
-<summary>About the command <code>fastapi dev main.py</code>...</summary>
+<summary>Για την εντολή <code>fastapi dev main.py</code>...</summary>
 
-The command `fastapi dev` reads your `main.py` file, detects the **FastAPI** app in it, and starts a server using <a href="https://www.uvicorn.org" class="external-link" target="_blank">Uvicorn</a>.
+Η εντολή `fastapi dev` διαβάζει το `main.py` αρχείο, εντοπίζει την **FastAPI** app μεταβλητή σε αυτό και ξεκινά τον σέρβερ χρησιμοποιώντας <a href="https://www.uvicorn.org" class="external-link" target="_blank">Uvicorn</a>.
 
 By default, `fastapi dev` will start with auto-reload enabled for local development.
 
